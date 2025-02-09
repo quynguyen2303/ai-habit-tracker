@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ai-habit-tracker"
+version = "0.1.0"
+description = "An AI-powered habit tracking web application"
+authors = ["quynguyen2303 <nguyenphuquy2303@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.1.0"
+flask-sqlalchemy = "^3.1.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
